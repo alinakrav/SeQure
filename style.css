@@ -1,0 +1,25 @@
+#screen {
+    width: 100vw;
+    /* width:980px; */
+    /* height:1743px; */
+    margin-left: -8px;
+    margin-top: 235px;
+    margin-bottom:-8px;
+    z-index: 0;
+}
+
+.text {
+    font-family:Helvetica;
+    font-size:53px;
+    color:white;
+    position:absolute;
+    z-index:1;
+}
+#date { 
+    bottom:-278px;
+    left:33px;
+}
+#time { 
+    bottom:-340px;
+    left:33px;
+}
