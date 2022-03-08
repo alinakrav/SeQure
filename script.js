@@ -1,13 +1,11 @@
 var obj;
 document.addEventListener('DOMContentLoaded', function() {
     window.scrollTo(0, 300);
-    // setTime();
+    obj = new Date();
     setDate();
-    setInterval(setTime, 1000);
 }, false);
 
 function setTime() {
-    obj = new Date();
     time.innerText = obj.toLocaleString([], { hour: '2-digit', minute: '2-digit' });
 }
 function setDate() {
